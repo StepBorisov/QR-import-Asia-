@@ -94,6 +94,7 @@ body::after {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  margin-top: 24px;
 }
 
 .link-btn {
@@ -150,14 +151,6 @@ body::after {
   text-align: left;
 }
 
-.footer-note {
-  margin-top: 36px;
-  font-size: 11px;
-  color: rgba(1,36,70,0.32);
-  opacity: 0;
-  animation: fadeUp .6s .7s forwards;
-}
-
 @keyframes pageIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -179,8 +172,6 @@ body::after {
   <div class="tag">Автомобили с аукционов Японии</div>
 
   <div class="links" id="links"></div>
-
-  <div class="footer-note">Import Asia Cars</div>
 </div>
 
 <script>
